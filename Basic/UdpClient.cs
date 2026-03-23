@@ -8,7 +8,7 @@ class UdpClientProgram
     static void Main(string[] args)
     {
         // 설정
-        string targetIP = "115.91.214.30";      // 대상 IP 주소
+        string targetIP = "JOINTSKILui-MacBookAir.local";      // 대상 IP 주소
         int targetPort = 5000;                  // 대상 포트
         string message = "Hello UDP Server";    // 보낼 메시지
 
