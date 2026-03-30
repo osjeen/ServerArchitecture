@@ -2,11 +2,18 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.IO;
+using Newtonsoft.Json;
+using UnityEngine;
+//넷코드를 저수준(udp)부터 다루는 기본코드. 보안수준 낮음
 
-class UdpClientProgram
+namespace UnityUdpNetCode{
+
+public class UdpClientBasic
 {
-    static void Main(string[] args)
+    static void Main()
     {
+        /*
         // 설정
         string targetIP = "JOINTSKILui-MacBookAir.local";      // 대상 IP 주소
         int targetPort = 5000;                  // 대상 포트
@@ -27,28 +34,40 @@ class UdpClientProgram
         catch (Exception ex)
         {
             Console.WriteLine($"에러 발생: {ex.Message}");
+        }*/
+    }
+    static string config_path=Path.Combine(AppContext.BaseDirectory, "config.json");
+    static void SendSocket(byte payload)
+    {
+        string json=File.ReadAllText(config_path);
+        var config=JsonConvert.DeserializeObject<Config>(json);
+
+        try
+        {
+            SendUdpPayload(config.targetIP, config.targetPort, payload);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"error: {ex.Message}");
         }
     }
 
-    static void SendUdpMessage(string ipAddress, int port, string message)
+    static void SendUdpPayload(string ipAddress, int port, byte payload)
     {
+        
         using (UdpClient udpClient = new UdpClient())
         {
             try
             {
-                // UDP 메시지 전송
-                byte[] data = Encoding.UTF8.GetBytes(message);
-                udpClient.Send(data, data.Length, ipAddress, port);
-                
-                Console.WriteLine($"✅ UDP 메시지 전송 성공!");
-                Console.WriteLine($"   대상 IP: {ipAddress}");
-                Console.WriteLine($"   포트: {port}");
-                Console.WriteLine($"   메시지: {message}");
+                udpClient.Send(payload, ipAddress, port);
             }
             catch (SocketException ex)
             {
-                Console.WriteLine($"❌ 소켓 에러: {ex.Message}");
+                Console.WriteLine($"socket error: {ex.Message}");
             }
         }
+
     }
+}
+
 }
