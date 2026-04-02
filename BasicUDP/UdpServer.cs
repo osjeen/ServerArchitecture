@@ -38,16 +38,20 @@ class UdpServer
                     IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
                     byte[] receivedData = udpServer.Receive(ref remoteEndPoint);
 
-                    byte[] respond = DataConvert.GetData(receivedData);
+                    DataPackType dp_type=(DataPackType)receivedData[0];
+
+                    //ExampleDataTarget target= Deserialize
                     Console.WriteLine($"responded");
                     Console.WriteLine($"   sender: {remoteEndPoint.Address}:{remoteEndPoint.Port}");
                     Console.WriteLine($"   time: {DateTime.Now:yyyy-MM-dd HH:mm:ss}\n");
 
                     //respond
+                    /*
                     if(respond!=null){
                         udpServer.Send(respond, respond.Length, remoteEndPoint);
                         Console.WriteLine($"respond: {respond}\n");
                     }
+                    */
                 }
             }
             catch (SocketException ex)
@@ -56,4 +60,13 @@ class UdpServer
             }
         }
     }
+}
+
+public enum DataPackType{msg=0}
+
+public class ExampleDataTarget<T>
+{
+    public int id;
+    public int sequenceID;
+    public T value;
 }

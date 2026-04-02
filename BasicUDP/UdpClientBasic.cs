@@ -44,6 +44,43 @@ public class UdpClientBasic
         }
 
     }
+    static void StartUdpClient(int port)
+    {
+        using (UdpClient udpServer = new UdpClient(port))
+        {
+            Console.WriteLine($"udp client started");
+            Console.WriteLine($"port: {port}");
+            Console.WriteLine($"waiting..(Ctrl+C to exit)\n");
+
+            try
+            {
+                while (true)
+                {
+                    IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                    byte[] receivedData = udpServer.Receive(ref remoteEndPoint);
+
+                    DataPackType dp_type=(DataPackType)receivedData[0];
+
+                    ExampleDataTarget target= 
+                    Console.WriteLine($"responded");
+                    Console.WriteLine($"   sender: {remoteEndPoint.Address}:{remoteEndPoint.Port}");
+                    Console.WriteLine($"   time: {DateTime.Now:yyyy-MM-dd HH:mm:ss}\n");
+
+                    //respond
+                    /*
+                    if(respond!=null){
+                        udpServer.Send(respond, respond.Length, remoteEndPoint);
+                        Console.WriteLine($"respond: {respond}\n");
+                    }
+                    */
+                }
+            }
+            catch (SocketException ex)
+            {
+                Console.WriteLine($"socket error: {ex.Message}");
+            }
+        }
+    }
 }
 
 }
