@@ -246,6 +246,27 @@
 <div id="toast"></div>
 
 <script>
+  // 페이지 로드 시 자동 connect
+const res = await fetch('/api/connect', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ name: '익명' })
+});
+const { session_id } = await res.json();
+
+// 5초마다 ping
+setInterval(() => {
+  fetch('/api/ping', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ session_id, active: true })
+  });
+}, 5000);
+
+// 페이지 떠날 때 disconnect
+window.addEventListener('beforeunload', () => {
+  navigator.sendBeacon('/api/disconnect', JSON.stringify({ session_id }));
+});
 const API = "";  // 같은 origin이면 빈 문자열, 별도 서버라면 "http://localhost:5000"
 
 let allUsers = [];
