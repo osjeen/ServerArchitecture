@@ -1,0 +1,3 @@
+/Users/jointskilk/Documents/GitHub/ServerArchitecture/ClientApp/build/CMakeFiles/tcp_client.dir
+/Users/jointskilk/Documents/GitHub/ServerArchitecture/ClientApp/build/CMakeFiles/edit_cache.dir
+/Users/jointskilk/Documents/GitHub/ServerArchitecture/ClientApp/build/CMakeFiles/rebuild_cache.dir
