@@ -1,6 +1,7 @@
 #include <iostream>
 #include <boost/asio.hpp>
 #include <thread>
+#define SERVER_ADR "127.0.0.1"
 #define MAIN_PORT 5001
 #define UNITY_PORT 5004
 using boost::asio::ip::tcp;
@@ -16,6 +17,9 @@ void relay_server_to_internal(std::shared_ptr<tcp::socket> server_sock, std::sha
 
             // 서버 응답 -> 내부 앱으로 전달
             boost::asio::write(*internal_sock, boost::asio::buffer(data, length));
+
+            int d;
+            std::cin>>d;
         }
     } catch (...) {}
 }
@@ -26,7 +30,7 @@ int main() {
 
         // 1. 메인 서버(5000)에 먼저 접속
         auto server_sock = std::make_shared<tcp::socket>(io_context);
-        server_sock->connect(tcp::endpoint(boost::asio::ip::make_address("127.0.0.1"), MAIN_PORT));
+        server_sock->connect(tcp::endpoint(boost::asio::ip::make_address(SERVER_ADR), MAIN_PORT));
         std::cout << "메인 서버 연결 완료." << std::endl;
 
         // 2. 내부 앱(5004) 접속 대기
@@ -50,6 +54,9 @@ int main() {
 
             // 내부 앱 요청 -> 메인 서버로 전달
             boost::asio::write(*server_sock, boost::asio::buffer(data, length));
+            
+            int d;
+            std::cin>>d;
         }
 
     } catch (std::exception& e) {
