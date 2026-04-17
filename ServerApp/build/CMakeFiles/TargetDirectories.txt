@@ -1,0 +1,3 @@
+/Users/jointskilk/Documents/GitHub/ServerArchitecture/ServerApp/build/CMakeFiles/tcp_server.dir
+/Users/jointskilk/Documents/GitHub/ServerArchitecture/ServerApp/build/CMakeFiles/edit_cache.dir
+/Users/jointskilk/Documents/GitHub/ServerArchitecture/ServerApp/build/CMakeFiles/rebuild_cache.dir
