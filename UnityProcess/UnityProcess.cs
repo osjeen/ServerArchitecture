@@ -1,40 +1,47 @@
 using System;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading.Tasks;
 
-class UnityProcess
+public class UnityProcess
 {
-    static void Main()
-    {
-        string serverIp = "127.0.0.1";
-        int port = 5004;
+    private const string relay_serverIp = "127.0.0.1";
+    private const int port = 5004;
 
+    // 반환 타입을 Task<byte[]>로 변경하여 await 가능하게 함
+    public static async Task<byte[]> SendTCPQuery(byte[] data)
+    {
         try
         {
-            // 1. 중계기(5004)에 연결 시도
-            using (TcpClient client = new TcpClient(serverIp, port))
+            // 1. 비동기 연결 (ConnectAsync)
+            using (TcpClient client = new TcpClient())
             {
-                Console.WriteLine($"중계기({port})에 연결되었습니다.");
+                await client.ConnectAsync(relay_serverIp, port);
+                
+                using (NetworkStream stream = client.GetStream())
+                {
+                    // 2. 서버로 데이터 전송 (WriteAsync)
+                    await stream.WriteAsync(data, 0, data.Length);
 
-                // 2. 스트림 가져오기 (데이터 읽기/쓰기용)
-                NetworkStream stream = client.GetStream();
+                    // 3. 서버 응답 읽기 (ReadAsync)
+                    byte[] buffer = new byte[1024];
+                    int bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
 
-                // 3. 서버(중계기)로 메시지 전송
-                string message = "내부 앱에서 보내는 요청입니다!";
-                byte[] data = Encoding.UTF8.GetBytes(message);
-                stream.Write(data, 0, data.Length);
-                Console.WriteLine("데이터 전송 완료.");
-
-                // 4. 서버(중계기)로부터 답변 읽기
-                byte[] buffer = new byte[1024];
-                int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                Console.WriteLine($"서버 답변: {response}");
+                    if (bytesRead > 0)
+                    {
+                        // 실제 받은 크기만큼만 복사해서 반환
+                        byte[] response = new byte[bytesRead];
+                        Array.Copy(buffer, 0, response, 0, bytesRead);
+                        return response;
+                    }
+                }
             }
         }
         catch (Exception e)
         {
-            Console.WriteLine($"에러 발생: {e.Message}");
+            UnityEngine.Debug.LogError($"TCP 통신 에러: {e.Message}");
         }
+
+        return null; // 실패 시 null 반환
     }
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <boost/asio.hpp>
 #include <thread>
-#define SERVER_ADR "127.0.0.1"
+#define SERVER_ADR "100.114.221.61"
 #define MAIN_PORT 5001
 #define UNITY_PORT 5004
 using boost::asio::ip::tcp;
