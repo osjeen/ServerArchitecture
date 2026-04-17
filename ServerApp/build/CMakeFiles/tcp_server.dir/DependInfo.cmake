@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jointskilk/Documents/GitHub/ServerArchitecture/ServerApp/Server_Main.cpp" "CMakeFiles/tcp_server.dir/Server_Main.cpp.o" "gcc" "CMakeFiles/tcp_server.dir/Server_Main.cpp.o.d"
+  "/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/Server_Main.cpp" "CMakeFiles/tcp_server.dir/Server_Main.cpp.o" "gcc" "CMakeFiles/tcp_server.dir/Server_Main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

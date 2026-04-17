@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/jointskilk/Documents/GitHub/ServerArchitecture/ServerApp/build/cmake_install.cmake"
+		"/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

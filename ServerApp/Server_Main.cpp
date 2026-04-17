@@ -51,8 +51,22 @@ public:
                 } else if (error) {
                     throw boost::system::system_error(error);
                 }
+                
+                //Server Res
+                std::cout << "[SUCCESS] Received length: " << length << std::endl;
 
-                boost::asio::write(new_session->socket_, boost::asio::buffer(data, length));
+                int query_id=(int)(unsigned char)data[0];
+                if (length > 0) {
+                    std::cout << "[DATA] First Byte (ID): " << query_id<< std::endl;
+                }
+                if(query_id==1){
+                    int value = new_session->id_;
+                    unsigned char bytes[4];
+                    std::memcpy(bytes, &value, sizeof(int));
+                    boost::asio::write(new_session->socket_, boost::asio::buffer(bytes, length));
+                }else{
+                    boost::asio::write(new_session->socket_, boost::asio::buffer(data, length));
+                }
             }
         } catch (std::exception& e) {
             std::cerr << "ID " << my_id << " Error: " << e.what() << std::endl;
@@ -80,7 +94,7 @@ int main() {
         acceptor.bind(endpoint);
         acceptor.listen();
 
-        std::cout << "Server is running on port " << MAIN_PORT << "..." << std::endl;
+        std::cout << "Unity Server is running on port " << MAIN_PORT << "..." << std::endl;
 
         for (;;) {
             // accept를 할 때마다 독립적인 소켓 객체 생성

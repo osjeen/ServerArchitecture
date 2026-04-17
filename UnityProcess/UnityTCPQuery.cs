@@ -18,7 +18,7 @@ public class UnityTCPQuery
             UnityEngine.Debug.LogError("서버로부터 유효하지 않은 응답을 받았습니다.");
             return -1; 
         }
-
+        
         return ResponseProtocol.Deserialize<int>(response);
     }
 
