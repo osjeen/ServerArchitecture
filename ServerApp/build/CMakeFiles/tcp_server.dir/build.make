@@ -95,6 +95,11 @@ tcp_server_EXTERNAL_OBJECTS =
 
 tcp_server: CMakeFiles/tcp_server.dir/Server_Main.cpp.o
 tcp_server: CMakeFiles/tcp_server.dir/build.make
+tcp_server: /opt/homebrew/lib/libboost_thread.dylib
+tcp_server: /opt/homebrew/lib/libboost_atomic.dylib
+tcp_server: /opt/homebrew/lib/libboost_chrono.dylib
+tcp_server: /opt/homebrew/lib/libboost_container.dylib
+tcp_server: /opt/homebrew/lib/libboost_date_time.dylib
 tcp_server: CMakeFiles/tcp_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tcp_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tcp_server.dir/link.txt --verbose=$(VERBOSE)

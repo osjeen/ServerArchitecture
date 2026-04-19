@@ -110,6 +110,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/next_permutation.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/out_value_result.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition.h \
@@ -244,6 +245,22 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -414,12 +431,59 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/nothrow_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/placement_new_delete.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/ranges_iota.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/normal_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/concepts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h \
@@ -509,6 +573,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_equality_comparable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h \
@@ -625,6 +690,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
@@ -647,6 +713,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -660,10 +727,12 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory_resource \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/shared_mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
@@ -681,9 +750,11 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
@@ -883,6 +954,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdint.h \
+  /Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/ClientStructure.hpp \
   /opt/homebrew/include/boost/asio.hpp \
   /opt/homebrew/include/boost/asio/any_completion_executor.hpp \
   /opt/homebrew/include/boost/asio/any_completion_handler.hpp \
@@ -1327,8 +1399,56 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /opt/homebrew/include/boost/config/stdlib/libcpp.hpp \
   /opt/homebrew/include/boost/config/user.hpp \
   /opt/homebrew/include/boost/config/workaround.hpp \
+  /opt/homebrew/include/boost/container_hash/detail/hash_integral.hpp \
+  /opt/homebrew/include/boost/container_hash/detail/hash_mix.hpp \
+  /opt/homebrew/include/boost/container_hash/detail/hash_range.hpp \
+  /opt/homebrew/include/boost/container_hash/detail/hash_tuple_like.hpp \
+  /opt/homebrew/include/boost/container_hash/detail/mulx.hpp \
+  /opt/homebrew/include/boost/container_hash/hash.hpp \
+  /opt/homebrew/include/boost/container_hash/hash_fwd.hpp \
+  /opt/homebrew/include/boost/container_hash/hash_is_avalanching.hpp \
+  /opt/homebrew/include/boost/container_hash/is_contiguous_range.hpp \
+  /opt/homebrew/include/boost/container_hash/is_described_class.hpp \
+  /opt/homebrew/include/boost/container_hash/is_range.hpp \
+  /opt/homebrew/include/boost/container_hash/is_tuple_like.hpp \
+  /opt/homebrew/include/boost/container_hash/is_unordered_range.hpp \
   /opt/homebrew/include/boost/cstdint.hpp \
+  /opt/homebrew/include/boost/describe/bases.hpp \
+  /opt/homebrew/include/boost/describe/detail/config.hpp \
+  /opt/homebrew/include/boost/describe/detail/cx_streq.hpp \
+  /opt/homebrew/include/boost/describe/detail/void_t.hpp \
+  /opt/homebrew/include/boost/describe/members.hpp \
+  /opt/homebrew/include/boost/describe/modifiers.hpp \
+  /opt/homebrew/include/boost/detail/workaround.hpp \
   /opt/homebrew/include/boost/exception/exception.hpp \
+  /opt/homebrew/include/boost/mp11/algorithm.hpp \
+  /opt/homebrew/include/boost/mp11/bind.hpp \
+  /opt/homebrew/include/boost/mp11/detail/config.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_append.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_copy_if.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_count.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_defer.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_fold.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_front.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_is_list.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_is_value_list.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_list.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_list_v.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_map_find.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_min_element.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_plus.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_remove_if.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_rename.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_value.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_void.hpp \
+  /opt/homebrew/include/boost/mp11/detail/mp_with_index.hpp \
+  /opt/homebrew/include/boost/mp11/function.hpp \
+  /opt/homebrew/include/boost/mp11/integer_sequence.hpp \
+  /opt/homebrew/include/boost/mp11/integral.hpp \
+  /opt/homebrew/include/boost/mp11/list.hpp \
+  /opt/homebrew/include/boost/mp11/set.hpp \
+  /opt/homebrew/include/boost/mp11/utility.hpp \
+  /opt/homebrew/include/boost/mp11/version.hpp \
   /opt/homebrew/include/boost/system/api_config.hpp \
   /opt/homebrew/include/boost/system/detail/append_int.hpp \
   /opt/homebrew/include/boost/system/detail/cerrno.hpp \
@@ -1361,14 +1481,150 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
   /opt/homebrew/include/boost/system/system_category.hpp \
   /opt/homebrew/include/boost/system/system_error.hpp \
   /opt/homebrew/include/boost/throw_exception.hpp \
-  /opt/homebrew/include/boost/version.hpp
+  /opt/homebrew/include/boost/type_traits/integral_constant.hpp \
+  /opt/homebrew/include/boost/uuid/basic_random_generator.hpp \
+  /opt/homebrew/include/boost/uuid/detail/basic_name_generator.hpp \
+  /opt/homebrew/include/boost/uuid/detail/chacha20.hpp \
+  /opt/homebrew/include/boost/uuid/detail/config.hpp \
+  /opt/homebrew/include/boost/uuid/detail/endian.hpp \
+  /opt/homebrew/include/boost/uuid/detail/hash_mix.hpp \
+  /opt/homebrew/include/boost/uuid/detail/md5.hpp \
+  /opt/homebrew/include/boost/uuid/detail/nil_uuid.hpp \
+  /opt/homebrew/include/boost/uuid/detail/numeric_cast.hpp \
+  /opt/homebrew/include/boost/uuid/detail/random_device.hpp \
+  /opt/homebrew/include/boost/uuid/detail/random_provider.hpp \
+  /opt/homebrew/include/boost/uuid/detail/sha1.hpp \
+  /opt/homebrew/include/boost/uuid/detail/static_assert.hpp \
+  /opt/homebrew/include/boost/uuid/detail/to_chars.hpp \
+  /opt/homebrew/include/boost/uuid/detail/uuid_uint128.ipp \
+  /opt/homebrew/include/boost/uuid/generators.hpp \
+  /opt/homebrew/include/boost/uuid/name_generator.hpp \
+  /opt/homebrew/include/boost/uuid/name_generator_md5.hpp \
+  /opt/homebrew/include/boost/uuid/name_generator_sha1.hpp \
+  /opt/homebrew/include/boost/uuid/namespaces.hpp \
+  /opt/homebrew/include/boost/uuid/nil_generator.hpp \
+  /opt/homebrew/include/boost/uuid/random_generator.hpp \
+  /opt/homebrew/include/boost/uuid/string_generator.hpp \
+  /opt/homebrew/include/boost/uuid/time_generator.hpp \
+  /opt/homebrew/include/boost/uuid/time_generator_v1.hpp \
+  /opt/homebrew/include/boost/uuid/time_generator_v6.hpp \
+  /opt/homebrew/include/boost/uuid/time_generator_v7.hpp \
+  /opt/homebrew/include/boost/uuid/uuid.hpp \
+  /opt/homebrew/include/boost/uuid/uuid_clock.hpp \
+  /opt/homebrew/include/boost/uuid/uuid_generators.hpp \
+  /opt/homebrew/include/boost/uuid/uuid_io.hpp \
+  /opt/homebrew/include/boost/version.hpp \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_utils.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
+
+/opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+
+/opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+/opt/homebrew/include/nlohmann/detail/value_t.hpp:
+
+/opt/homebrew/include/nlohmann/detail/string_concat.hpp:
+
+/opt/homebrew/include/nlohmann/detail/output/serializer.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp:
+
+/opt/homebrew/include/nlohmann/detail/macro_unscope.hpp:
+
+/opt/homebrew/include/nlohmann/detail/json_ref.hpp:
+
+/opt/homebrew/include/nlohmann/detail/json_pointer.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/parser.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp:
+
+/opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp:
+
+/opt/homebrew/include/nlohmann/detail/abi_macros.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/void_t.hpp:
+
+/opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp:
 
 /opt/homebrew/include/boost/version.hpp:
 
-/opt/homebrew/include/boost/system/system_error.hpp:
+/opt/homebrew/include/boost/uuid/time_generator_v7.hpp:
 
-/opt/homebrew/include/boost/system/is_error_condition_enum.hpp:
+/opt/homebrew/include/boost/uuid/time_generator_v1.hpp:
+
+/opt/homebrew/include/boost/uuid/random_generator.hpp:
+
+/opt/homebrew/include/boost/uuid/name_generator_sha1.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/static_assert.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/random_provider.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/random_device.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/nil_uuid.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/hash_mix.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/basic_name_generator.hpp:
+
+/opt/homebrew/include/boost/uuid/basic_random_generator.hpp:
+
+/opt/homebrew/include/boost/system/system_error.hpp:
 
 /opt/homebrew/include/boost/system/error_code.hpp:
 
@@ -1390,7 +1646,49 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/system/api_config.hpp:
 
+/opt/homebrew/include/boost/mp11/utility.hpp:
+
+/opt/homebrew/include/boost/mp11/integral.hpp:
+
+/opt/homebrew/include/boost/mp11/function.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_with_index.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_void.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_value.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_rename.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_plus.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_map_find.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_list_v.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_is_list.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_front.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_defer.hpp:
+
+/opt/homebrew/include/boost/mp11/detail/mp_copy_if.hpp:
+
+/opt/homebrew/include/boost/mp11/bind.hpp:
+
 /opt/homebrew/include/boost/exception/exception.hpp:
+
+/opt/homebrew/include/boost/describe/detail/void_t.hpp:
+
+/opt/homebrew/include/boost/container_hash/is_unordered_range.hpp:
+
+/opt/homebrew/include/boost/container_hash/is_contiguous_range.hpp:
+
+/opt/homebrew/include/boost/mp11/integer_sequence.hpp:
+
+/opt/homebrew/include/boost/container_hash/hash_is_avalanching.hpp:
+
+/opt/homebrew/include/boost/container_hash/hash_fwd.hpp:
 
 /opt/homebrew/include/boost/config/workaround.hpp:
 
@@ -1428,8 +1726,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/traits/require_free.hpp:
 
-/opt/homebrew/include/boost/asio/traits/query_static_constexpr_member.hpp:
-
 /opt/homebrew/include/boost/asio/traits/query_member.hpp:
 
 /opt/homebrew/include/boost/asio/traits/prefer_free.hpp:
@@ -1447,6 +1743,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/asio/signal_set_base.hpp:
 
 /opt/homebrew/include/boost/asio/require_concept.hpp:
+
+/opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp:
 
 /opt/homebrew/include/boost/asio/require.hpp:
 
@@ -1475,8 +1773,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/assert/source_location.hpp:
 
 /opt/homebrew/include/boost/asio/multiple_exceptions.hpp:
-
-/opt/homebrew/include/boost/asio/local/stream_protocol.hpp:
 
 /opt/homebrew/include/boost/asio/local/connect_pair.hpp:
 
@@ -1520,6 +1816,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/ip/basic_resolver.hpp:
 
+/opt/homebrew/include/boost/uuid/name_generator.hpp:
+
 /opt/homebrew/include/boost/asio/ip/bad_address_cast.hpp:
 
 /opt/homebrew/include/boost/asio/ip/address_v6_range.hpp:
@@ -1560,6 +1858,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/impl/execution_context.hpp:
 
+/opt/homebrew/include/boost/container_hash/detail/hash_mix.hpp:
+
 /opt/homebrew/include/boost/asio/impl/detached.hpp:
 
 /opt/homebrew/include/boost/asio/ip/impl/address_v6.hpp:
@@ -1578,9 +1878,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/generic/seq_packet_protocol.hpp:
 
-/opt/homebrew/include/boost/asio/generic/raw_protocol.hpp:
+/opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp:
 
-/opt/homebrew/include/boost/asio/generic/datagram_protocol.hpp:
+/opt/homebrew/include/boost/asio/generic/raw_protocol.hpp:
 
 /opt/homebrew/include/boost/asio/generic/basic_endpoint.hpp:
 
@@ -1596,6 +1896,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/execution/inline_exception_handling.hpp:
 
+/opt/homebrew/include/boost/uuid/time_generator.hpp:
+
 /opt/homebrew/include/boost/asio/execution/context_as.hpp:
 
 /opt/homebrew/include/boost/asio/execution/context.hpp:
@@ -1606,15 +1908,19 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/execution.hpp:
 
-/opt/homebrew/include/boost/asio/disposition.hpp:
-
 /opt/homebrew/include/boost/asio/detail/wrapped_handler.hpp:
 
 /opt/homebrew/include/boost/asio/detail/wait_op.hpp:
 
 /opt/homebrew/include/boost/asio/detail/type_traits.hpp:
 
+/opt/homebrew/include/boost/mp11/set.hpp:
+
 /opt/homebrew/include/boost/asio/detail/timer_scheduler_fwd.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/md5.hpp:
+
+/opt/homebrew/include/boost/container_hash/detail/hash_tuple_like.hpp:
 
 /opt/homebrew/include/boost/asio/execution/relationship.hpp:
 
@@ -1626,6 +1932,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/timer_queue_base.hpp:
 
+/opt/homebrew/include/boost/mp11/list.hpp:
+
 /opt/homebrew/include/boost/asio/detail/timed_cancel_op.hpp:
 
 /opt/homebrew/include/boost/asio/detail/throw_exception.hpp:
@@ -1636,19 +1944,19 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/strand_service.hpp:
 
-/opt/homebrew/include/boost/system/detail/mutex.hpp:
-
-/opt/homebrew/include/boost/asio/detail/std_fenced_block.hpp:
-
 /opt/homebrew/include/boost/asio/detail/static_mutex.hpp:
 
 /opt/homebrew/include/boost/asio/detail/socket_option.hpp:
+
+/opt/homebrew/include/nlohmann/adl_serializer.hpp:
 
 /opt/homebrew/include/boost/asio/detail/socket_ops.hpp:
 
 /opt/homebrew/include/boost/asio/detail/signal_op.hpp:
 
 /opt/homebrew/include/boost/asio/detail/signal_handler.hpp:
+
+/opt/homebrew/include/boost/type_traits/integral_constant.hpp:
 
 /opt/homebrew/include/boost/asio/detail/service_registry.hpp:
 
@@ -1658,7 +1966,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/scheduler_task.hpp:
 
-/opt/homebrew/include/boost/asio/detail/scheduler_operation.hpp:
+/opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp:
 
 /opt/homebrew/include/boost/asio/detail/scheduler.hpp:
 
@@ -1667,8 +1975,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/asio/detail/resolver_service.hpp:
 
 /opt/homebrew/include/boost/asio/detail/resolve_query_op.hpp:
-
-/opt/homebrew/include/boost/asio/detail/resolve_endpoint_op.hpp:
 
 /opt/homebrew/include/boost/asio/detail/regex_fwd.hpp:
 
@@ -1726,6 +2032,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/initiation_base.hpp:
 
+/opt/homebrew/include/nlohmann/detail/input/lexer.hpp:
+
 /opt/homebrew/include/boost/asio/detail/impl/strand_executor_service.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/socket_ops.ipp:
@@ -1734,13 +2042,13 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/impl/service_registry.ipp:
 
-/opt/homebrew/include/boost/asio/detail/impl/service_registry.hpp:
-
 /opt/homebrew/include/boost/asio/detail/impl/scheduler.ipp:
 
 /opt/homebrew/include/boost/asio/detail/impl/resolver_thread_pool.ipp:
 
 /opt/homebrew/include/boost/asio/detail/impl/reactive_socket_service_base.ipp:
+
+/opt/homebrew/include/nlohmann/detail/macro_scope.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/posix_thread.ipp:
 
@@ -1755,6 +2063,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/asio/detail/handler_type_requirements.hpp:
 
 /opt/homebrew/include/boost/asio/detail/handler_cont_helpers.hpp:
+
+/opt/homebrew/include/nlohmann/json.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/pipe_select_interrupter.ipp:
 
@@ -1800,6 +2110,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/blocking_executor_op.hpp:
 
+/opt/homebrew/include/boost/container_hash/is_range.hpp:
+
 /opt/homebrew/include/boost/asio/detail/strand_executor_service.hpp:
 
 /opt/homebrew/include/boost/asio/detail/bind_handler.hpp:
@@ -1842,9 +2154,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/cancel_after.hpp:
 
-/opt/homebrew/include/boost/asio/buffered_write_stream_fwd.hpp:
+/opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp:
 
-/opt/homebrew/include/boost/asio/buffered_write_stream.hpp:
+/opt/homebrew/include/boost/asio/buffered_write_stream_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/buffered_stream_fwd.hpp:
 
@@ -1861,6 +2173,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/asio/basic_streambuf.hpp:
 
 /opt/homebrew/include/boost/asio/basic_socket.hpp:
+
+/opt/homebrew/include/nlohmann/detail/string_escape.hpp:
 
 /opt/homebrew/include/boost/asio/basic_signal_set.hpp:
 
@@ -1897,6 +2211,10 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/asio/any_completion_handler.hpp:
 
 /opt/homebrew/include/boost/asio/any_completion_executor.hpp:
+
+/opt/homebrew/include/boost/asio/detail/impl/service_registry.hpp:
+
+/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/ClientStructure.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h:
 
@@ -1962,6 +2280,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/termios.h:
 
+/opt/homebrew/include/boost/uuid/nil_generator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stddef_offsetof.h:
@@ -1983,6 +2303,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/queue.h:
+
+/opt/homebrew/include/boost/mp11/detail/mp_min_element.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h:
 
@@ -2006,10 +2328,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h:
@@ -2030,7 +2348,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval64.h:
+/opt/homebrew/include/boost/mp11/detail/mp_fold.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h:
 
@@ -2044,6 +2362,10 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h:
+
+/opt/homebrew/include/nlohmann/detail/input/position_t.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h:
 
 /opt/homebrew/include/boost/system/detail/std_category_impl.hpp:
@@ -2052,35 +2374,43 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sa_family_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_dsync.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
+/opt/homebrew/include/boost/asio/detail/thread_context.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_iovec_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n_segment.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h:
+/opt/homebrew/include/boost/mp11/detail/mp_count.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
+
+/opt/homebrew/include/boost/asio/associated_immediate_executor.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/opt/homebrew/include/boost/asio/detail/scoped_ptr.hpp:
+
+/opt/homebrew/include/boost/asio/basic_socket_streambuf.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
 
 /opt/homebrew/include/boost/system/detail/enable_if.hpp:
 
@@ -2088,17 +2418,29 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/opt/homebrew/include/boost/asio/ip/network_v6.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
+
+/opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
@@ -2106,19 +2448,15 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/poll.h:
+/opt/homebrew/include/boost/asio/ip/detail/endpoint.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_select.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
-/opt/homebrew/include/boost/asio/bind_immediate_executor.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/memory_order.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
+/opt/homebrew/include/boost/uuid/uuid_io.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
@@ -2128,25 +2466,33 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
+/opt/homebrew/include/boost/asio/append.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/opt/homebrew/include/boost/asio/compose.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
+
+/opt/homebrew/include/boost/uuid/namespaces.hpp:
 
 /opt/homebrew/include/boost/system/is_error_code_enum.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdlib.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_s_ifmt.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
 
@@ -2162,15 +2508,17 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/poll.h:
+
 /opt/homebrew/include/boost/asio/detail/tss_ptr.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/netinet6/in6.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/net/net_kev.h:
 
-/opt/homebrew/include/boost/asio/associated_immediate_executor.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h:
+/opt/homebrew/include/boost/mp11/detail/mp_is_value_list.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/net/if_var.h:
 
@@ -2180,21 +2528,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h:
 
-/opt/homebrew/include/boost/config/compiler/clang_version.hpp:
-
-/opt/homebrew/include/boost/asio/ip/basic_resolver_entry.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/prev.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h:
+/opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h:
-
-/opt/homebrew/include/boost/asio/impl/buffered_read_stream.hpp:
-
-/opt/homebrew/include/boost/asio/detail/initiate_defer.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
 
 /opt/homebrew/include/boost/system/detail/system_category_message.hpp:
 
@@ -2224,11 +2560,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /opt/homebrew/include/boost/asio/detail/impl/timer_queue_set.ipp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h:
 
 /opt/homebrew/include/boost/asio/dispatch.hpp:
 
@@ -2238,15 +2572,11 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:
 
+/opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/random:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
 
@@ -2264,9 +2594,13 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/max_align_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future:
 
 /opt/homebrew/include/boost/asio/detail/resolver_thread_pool.hpp:
 
@@ -2281,6 +2615,10 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
 
@@ -2302,9 +2640,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal:
 
-/opt/homebrew/include/boost/asio/ip/detail/endpoint.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_select.h:
+/opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale:
 
@@ -2365,12 +2701,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h:
-
-/opt/homebrew/include/boost/asio/impl/as_tuple.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
 
 /opt/homebrew/include/boost/asio/traits/require_concept_free.hpp:
 
@@ -2440,6 +2770,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_list.h:
 
+/opt/homebrew/include/boost/uuid/string_generator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/vector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
@@ -2452,15 +2784,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
-/opt/homebrew/include/boost/asio/consign.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/uio.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/un.h:
 
@@ -2468,13 +2792,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
-/opt/homebrew/include/boost/asio/basic_waitable_timer.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/throw_system_error.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:
+
+/opt/homebrew/include/boost/container_hash/detail/hash_range.hpp:
 
 /opt/homebrew/include/boost/asio/config.hpp:
 
@@ -2490,19 +2810,23 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_iovec_t.h:
-
 /opt/homebrew/include/boost/asio/local/datagram_protocol.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
+
+/opt/homebrew/include/boost/describe/detail/cx_streq.hpp:
 
 /opt/homebrew/include/boost/asio/ip/host_name.hpp:
 
@@ -2520,6 +2844,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
+/opt/homebrew/include/boost/uuid/detail/to_chars.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
 
 /opt/homebrew/include/boost/asio/ip/impl/host_name.ipp:
@@ -2529,12 +2855,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
-
-/opt/homebrew/include/boost/asio/detail/scoped_ptr.hpp:
-
-/opt/homebrew/include/boost/asio/basic_socket_streambuf.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
@@ -2560,15 +2880,11 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_sync.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h:
 
@@ -2614,6 +2930,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
 
+/opt/homebrew/include/boost/describe/bases.hpp:
+
 /opt/homebrew/include/boost/asio/basic_writable_pipe.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
@@ -2631,8 +2949,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
 
 /opt/homebrew/include/boost/asio/detail/reactive_null_buffers_op.hpp:
 
@@ -2654,8 +2970,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
@@ -2676,8 +2990,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
-
 /opt/homebrew/include/boost/asio/detail/initiate_dispatch.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
@@ -2689,6 +3001,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
@@ -2704,8 +3018,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_filesec_t.h:
-
 /opt/homebrew/include/boost/system/errc.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h:
@@ -2717,6 +3029,14 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /opt/homebrew/include/boost/system/detail/append_int.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
@@ -2738,6 +3058,12 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h:
 
+/opt/homebrew/include/boost/asio/basic_waitable_timer.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/throw_system_error.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare:
 
 /opt/homebrew/include/boost/throw_exception.hpp:
@@ -2758,15 +3084,17 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
+/opt/homebrew/include/boost/container_hash/is_tuple_like.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread:
 
 /opt/homebrew/include/boost/asio/execution/executor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
-
-/opt/homebrew/include/boost/asio/impl/buffered_write_stream.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
@@ -2778,14 +3106,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/size.h:
 
-/opt/homebrew/include/boost/asio/windows/overlapped_ptr.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/destructible.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/num.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
 /opt/homebrew/include/boost/config/detail/select_compiler_config.hpp:
@@ -2796,17 +3116,159 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h:
+
+/opt/homebrew/include/boost/asio/traits/query_static_constexpr_member.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/poisson_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/normal_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/select.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_equality_comparable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
+
+/opt/homebrew/include/boost/asio/basic_random_access_file.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
+
+/opt/homebrew/include/boost/mp11/detail/mp_remove_if.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
+
+/opt/homebrew/include/boost/asio/detail/resolve_endpoint_op.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/exponential_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discrete_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval64.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h:
+
+/opt/homebrew/include/boost/uuid/detail/sha1.hpp:
+
+/opt/homebrew/include/boost/asio/local/stream_protocol.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/clamp_to_integral.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/cauchy_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h:
+
+/opt/homebrew/include/nlohmann/detail/string_utils.hpp:
+
+/opt/homebrew/include/boost/uuid/detail/numeric_cast.hpp:
+
+/opt/homebrew/include/boost/asio/windows/overlapped_ptr.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/destructible.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/num.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_filesec_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
+
+/opt/homebrew/include/boost/asio/impl/buffered_write_stream.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer:
+
+/opt/homebrew/include/boost/asio/disposition.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/ranges_iota.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
+
+/opt/homebrew/include/nlohmann/detail/exceptions.hpp:
+
+/opt/homebrew/include/boost/system/is_error_condition_enum.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle:
 
@@ -2818,14 +3280,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/new_handler.h:
 
-/opt/homebrew/include/boost/asio/ip/v6_only.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:
@@ -2835,6 +3289,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/gamma_distribution.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h:
 
@@ -2850,9 +3306,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stddef_header_macro.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/exceptions.h:
 
@@ -2874,21 +3330,39 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n_segment.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
+
+/opt/homebrew/include/boost/config/compiler/clang.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
+
 /opt/homebrew/include/boost/asio/detail/impl/kqueue_reactor.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
+/opt/homebrew/include/boost/asio/read_at.hpp:
 
-/opt/homebrew/include/boost/asio/detail/buffer_sequence_adapter.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_count.h:
 
 /opt/homebrew/include/boost/asio/impl/redirect_error.hpp:
 
@@ -2896,33 +3370,23 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/out_ptr.h:
 
-/opt/homebrew/include/boost/cerrno.hpp:
-
-/opt/homebrew/include/boost/asio/ip/address_v4_range.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_string.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/decay.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/different_from.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray:
+
+/opt/homebrew/include/boost/mp11/detail/config.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception_ptr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_reference.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator.h:
+
+/opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
@@ -2944,8 +3408,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/event.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
@@ -2956,9 +3418,21 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/gethostuuid.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h:
+
+/opt/homebrew/include/boost/uuid/uuid_clock.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wbuffer_convert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/time.h:
+
+/opt/homebrew/include/boost/system/detail/mutex.hpp:
+
+/opt/homebrew/include/boost/asio/detail/std_fenced_block.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/is_sufficiently_aligned.h:
 
@@ -2976,12 +3450,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/pad_and_output.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
-
-/opt/homebrew/include/boost/asio/detail/socket_types.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
-
 /opt/homebrew/include/boost/asio/detail/descriptor_ops.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
@@ -2992,9 +3460,17 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h:
 
+/opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
+
 /opt/homebrew/include/boost/asio/placeholders.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
+
+/opt/homebrew/include/boost/uuid/detail/endian.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
 
@@ -3014,9 +3490,15 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
+/opt/homebrew/include/boost/mp11/version.hpp:
+
+/opt/homebrew/include/boost/describe/members.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_abort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/swappable.h:
+
+/opt/homebrew/include/boost/mp11/detail/mp_append.hpp:
 
 /opt/homebrew/include/boost/asio/generic/detail/impl/endpoint.ipp:
 
@@ -3024,11 +3506,21 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
+
+/opt/homebrew/include/boost/uuid/uuid_generators.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_move.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
@@ -3052,6 +3544,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unqualified.h:
 
+/opt/homebrew/include/boost/container_hash/hash.hpp:
+
 /opt/homebrew/include/boost/asio/detail/posix_thread.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
@@ -3068,13 +3562,21 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
+
+/opt/homebrew/include/nlohmann/detail/input/json_sax.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_endian.h:
+/opt/homebrew/include/boost/asio/ip/v6_only.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo:
 
@@ -3085,6 +3587,12 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros:
+
+/opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:
 
@@ -3098,6 +3606,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
 
+/opt/homebrew/include/boost/uuid/detail/uuid_uint128.ipp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/clamp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fcntl.h:
@@ -3110,10 +3620,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
@@ -3124,7 +3630,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+/opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp:
 
 /opt/homebrew/include/boost/asio/detail/socket_holder.hpp:
 
@@ -3139,10 +3645,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/map.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ios.h:
-
-/opt/homebrew/include/boost/asio/ip/network_v6.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h:
 
 /opt/homebrew/include/boost/system/error_category.hpp:
 
@@ -3166,6 +3668,12 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
+/opt/homebrew/include/boost/asio/detail/signal_set_service.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/aliases.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
@@ -3183,6 +3691,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
+
+/opt/homebrew/include/boost/describe/modifiers.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
@@ -3212,7 +3722,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h:
 
@@ -3223,6 +3733,62 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder1st.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/decay.h:
+
+/opt/homebrew/include/boost/asio/detail/socket_types.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
+
+/opt/homebrew/include/boost/asio/impl/buffered_read_stream.hpp:
+
+/opt/homebrew/include/boost/asio/detail/initiate_defer.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
+
+/opt/homebrew/include/boost/asio/detail/scheduler_operation.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdint.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory_resource:
+
+/opt/homebrew/include/boost/container_hash/is_described_class.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
+
+/opt/homebrew/include/boost/asio/ip/address_v6.hpp:
+
+/opt/homebrew/include/boost/asio/execution/bad_executor.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/subrange.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:
 
@@ -3238,6 +3804,10 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
+/opt/homebrew/include/boost/asio/buffered_write_stream.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discard_block_engine.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/sanitizers.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
@@ -3249,6 +3819,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/contention_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
+
+/opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp:
 
 /opt/homebrew/include/boost/asio/completion_condition.hpp:
 
@@ -3268,13 +3840,11 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/max_align_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/complex:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
 
@@ -3287,6 +3857,12 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:
+
+/opt/homebrew/include/boost/asio/consign.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/uio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
 /opt/homebrew/include/boost/asio/generic/detail/endpoint.hpp:
 
@@ -3307,6 +3883,10 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h:
+
+/opt/homebrew/include/boost/uuid/detail/chacha20.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
 
@@ -3330,11 +3910,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h:
-
-/opt/homebrew/include/boost/asio/read_at.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
 /opt/homebrew/include/boost/asio/detail/timer_queue.hpp:
 
@@ -3346,15 +3924,21 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/binomial_distribution.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h:
+
+/opt/homebrew/include/boost/container_hash/detail/hash_integral.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_types.h:
+
+/opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
@@ -3370,9 +3954,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/movable.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/any:
+
+/opt/homebrew/include/boost/uuid/name_generator_md5.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
@@ -3380,11 +3964,19 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
 
+/opt/homebrew/include/boost/asio/detail/buffer_sequence_adapter.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
@@ -3394,6 +3986,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/aliasing_iterator.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
@@ -3402,9 +3996,11 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
 /opt/homebrew/include/boost/asio/detail/impl/strand_service.hpp:
 
@@ -3468,19 +4064,23 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_sync.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
-/opt/homebrew/include/boost/asio/detail/signal_set_service.hpp:
+/opt/homebrew/include/boost/uuid/uuid.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/aliases.h:
+/opt/homebrew/include/boost/asio/bind_immediate_executor.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/memory_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
@@ -3492,10 +4092,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/empty.h:
@@ -3505,6 +4101,10 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h:
 
 /opt/homebrew/include/boost/system/detail/error_condition.hpp:
+
+/opt/homebrew/include/boost/describe/detail/config.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
 
@@ -3522,41 +4122,11 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdint.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory_resource:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
-
-/opt/homebrew/include/boost/asio/ip/address_v6.hpp:
-
-/opt/homebrew/include/boost/asio/execution/bad_executor.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h:
 
@@ -3568,23 +4138,19 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
-/opt/homebrew/include/boost/asio/basic_random_access_file.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
-
 /opt/homebrew/include/boost/asio/detail/impl/reactive_descriptor_service.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
-
-/opt/homebrew/include/boost/asio/compose.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/relation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/dangling.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h:
 
@@ -3594,11 +4160,15 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/gethostuuid.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_limits.h:
+
+/opt/homebrew/include/boost/detail/workaround.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stddef_nullptr_t.h:
 
@@ -3612,8 +4182,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
 
 /opt/homebrew/include/boost/asio/bind_allocator.hpp:
@@ -3624,13 +4192,13 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/generate_canonical.h:
 
 /opt/homebrew/include/boost/asio/detail/impl/null_event.ipp:
 
@@ -3646,15 +4214,21 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_replaceable.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/lognormal_distribution.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
+
+/opt/homebrew/include/boost/mp11/detail/mp_list.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
 
 /Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/Server_Main.cpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/support.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
@@ -3680,14 +4254,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h:
 
-/opt/homebrew/include/boost/asio/detail/global.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
-
-/opt/homebrew/include/boost/asio/impl/thread_pool.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/ordering.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition.h:
@@ -3698,11 +4264,21 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
+/opt/homebrew/include/boost/asio/impl/thread_pool.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/ordering.h:
+
+/opt/homebrew/include/boost/asio/detail/global.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
+
+/opt/homebrew/include/nlohmann/detail/meta/detected.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
@@ -3712,11 +4288,9 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
-/opt/homebrew/include/boost/asio/append.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
+
+/opt/homebrew/include/nlohmann/detail/hash.hpp:
 
 /opt/homebrew/include/boost/asio/detail/non_const_lvalue.hpp:
 
@@ -3742,11 +4316,15 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/radix_sort.h:
 
+/opt/homebrew/include/nlohmann/ordered_map.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/ptrcheck.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_locale_t.h:
+
+/opt/homebrew/include/boost/uuid/detail/config.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h:
 
@@ -3762,8 +4340,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/subrange.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
 /opt/homebrew/include/boost/asio/basic_stream_file.hpp:
@@ -3771,6 +4347,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stddef_max_align_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/nl_types.h:
+
+/opt/homebrew/include/boost/mp11/algorithm.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_log2.h:
 
@@ -3798,8 +4376,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_count.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /opt/homebrew/include/boost/asio/inline_or_executor.hpp:
@@ -3807,6 +4383,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
+
+/opt/homebrew/include/boost/uuid/time_generator_v6.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
@@ -3816,15 +4394,19 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_printf.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
+
 /opt/homebrew/include/boost/asio/associated_cancellation_slot.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/out_value_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h:
 
@@ -3850,10 +4432,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_s_ifmt.h:
-
 /opt/homebrew/include/boost/asio/execution/impl/bad_executor.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h:
@@ -3864,9 +4442,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/set.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_temporary_buffer.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeindex:
 
 /opt/homebrew/include/boost/asio/detail/completion_handler.hpp:
 
@@ -3890,9 +4466,13 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arpa/inet.h:
 
-/opt/homebrew/include/boost/asio/detail/thread_context.hpp:
+/opt/homebrew/include/boost/config/compiler/clang_version.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
+/opt/homebrew/include/boost/asio/ip/basic_resolver_entry.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
 
@@ -3924,25 +4504,29 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:
 
+/opt/homebrew/include/boost/container_hash/detail/mulx.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_param.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
-
-/opt/homebrew/include/boost/config/compiler/clang.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
+
+/opt/homebrew/include/boost/asio/impl/as_tuple.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:
 
 /opt/homebrew/include/boost/asio/detail/concurrency_hint.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/alloca.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
+/opt/homebrew/include/boost/asio/generic/datagram_protocol.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_object.h:
 
@@ -3965,6 +4549,12 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
+
+/opt/homebrew/include/boost/uuid/generators.hpp:
 
 /opt/homebrew/include/boost/asio/detached.hpp:
 
@@ -4002,7 +4592,15 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h:
+/opt/homebrew/include/boost/cerrno.hpp:
+
+/opt/homebrew/include/boost/asio/ip/address_v4_range.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_string.h:
 
 /opt/homebrew/include/boost/asio/io_context.hpp:
 
@@ -4034,11 +4632,7 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/platform.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h:
 
@@ -4056,6 +4650,8 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic.h:
 
+/opt/homebrew/include/nlohmann/json_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/desugars_to.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
@@ -4064,13 +4660,13 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
+
 /opt/homebrew/include/boost/asio/detail/handler_work.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
@@ -4079,8 +4675,6 @@ CMakeFiles/tcp_server.dir/Server_Main.cpp.o: /Users/jointskilk/Documents/GitHub/
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/___wctype.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 

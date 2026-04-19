@@ -23,11 +23,41 @@ BoostTcpExample_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 BoostTcpExample_SOURCE_DIR:STATIC=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp
 
+//Boost atomic library (debug)
+Boost_ATOMIC_LIBRARY_DEBUG:FILEPATH=/opt/homebrew/lib/libboost_atomic.dylib
+
+//Boost atomic library (release)
+Boost_ATOMIC_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libboost_atomic.dylib
+
+//Boost chrono library (debug)
+Boost_CHRONO_LIBRARY_DEBUG:FILEPATH=/opt/homebrew/lib/libboost_chrono.dylib
+
+//Boost chrono library (release)
+Boost_CHRONO_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libboost_chrono.dylib
+
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=/opt/homebrew/lib/cmake/Boost-1.90.0
 
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/opt/homebrew/include
+
+//Boost library directory DEBUG
+Boost_LIBRARY_DIR_DEBUG:PATH=/opt/homebrew/lib
+
+//Boost library directory RELEASE
+Boost_LIBRARY_DIR_RELEASE:PATH=/opt/homebrew/lib
+
+//Boost system library (debug)
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=Boost_SYSTEM_LIBRARY_DEBUG-NOTFOUND
+
+//Boost system library (release)
+Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=Boost_SYSTEM_LIBRARY_RELEASE-NOTFOUND
+
+//Boost thread library (debug)
+Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/opt/homebrew/lib/libboost_thread.dylib
+
+//Boost thread library (release)
+Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libboost_thread.dylib
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -164,7 +194,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=BoostTcpExample
+CMAKE_PROJECT_NAME:STATIC=UnityTcpServer
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -234,16 +264,74 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+UnityServerArch_BINARY_DIR:STATIC=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/build
+
+//Value Computed by CMake
+UnityServerArch_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+UnityServerArch_SOURCE_DIR:STATIC=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp
+
+//Value Computed by CMake
+UnityTcpServer_BINARY_DIR:STATIC=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp/build
+
+//Value Computed by CMake
+UnityTcpServer_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+UnityTcpServer_SOURCE_DIR:STATIC=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp
+
+//The directory containing a CMake configuration file for boost_atomic.
+boost_atomic_DIR:PATH=/opt/homebrew/lib/cmake/boost_atomic-1.90.0
+
+//The directory containing a CMake configuration file for boost_chrono.
+boost_chrono_DIR:PATH=/opt/homebrew/lib/cmake/boost_chrono-1.90.0
+
+//The directory containing a CMake configuration file for boost_container.
+boost_container_DIR:PATH=/opt/homebrew/lib/cmake/boost_container-1.90.0
+
+//The directory containing a CMake configuration file for boost_date_time.
+boost_date_time_DIR:PATH=/opt/homebrew/lib/cmake/boost_date_time-1.90.0
+
+//The directory containing a CMake configuration file for boost_exception.
+boost_exception_DIR:PATH=/opt/homebrew/lib/cmake/boost_exception-1.90.0
+
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/opt/homebrew/lib/cmake/boost_headers-1.90.0
+
+//The directory containing a CMake configuration file for boost_system.
+boost_system_DIR:PATH=boost_system_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for boost_thread.
+boost_thread_DIR:PATH=/opt/homebrew/lib/cmake/boost_thread-1.90.0
+
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/opt/homebrew/share/cmake/nlohmann_json
 
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_ATOMIC_LIBRARY_DEBUG
+Boost_ATOMIC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_ATOMIC_LIBRARY_RELEASE
+Boost_ATOMIC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_CHRONO_LIBRARY_DEBUG
+Boost_CHRONO_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_CHRONO_LIBRARY_RELEASE
+Boost_CHRONO_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
+Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
+Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
+Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
+Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -316,6 +404,8 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/Users/jointskilk/Documents/GitHub/UnityServerArch/Assets/ServerArchitecture/ServerApp
@@ -386,7 +476,23 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/opt/homebrew/lib/cmake/Boost-1.90.0/BoostConfig.cmake][ ][v1.90.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/opt/homebrew/lib/cmake/Boost-1.90.0/BoostConfig.cmake][found components: thread ][v1.90.0()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.12.0()]
+//ADVANCED property for variable: boost_atomic_DIR
+boost_atomic_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_chrono_DIR
+boost_chrono_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_container_DIR
+boost_container_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_date_time_DIR
+boost_date_time_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_exception_DIR
+boost_exception_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_headers_DIR
 boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_thread_DIR
+boost_thread_DIR-ADVANCED:INTERNAL=1
 
