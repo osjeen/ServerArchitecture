@@ -10,7 +10,7 @@ namespace LLNetCode
 
 public class UnityNetClient
 {
-    private const string mainServerIP = "127.0.0.1";
+    private const string mainServerIP = "100.114.221.61";
     private const int tcp_port = 5001,udp_send_port=5004,udp_receive_port=5005;
 
     /*TCP SOCKET*/
