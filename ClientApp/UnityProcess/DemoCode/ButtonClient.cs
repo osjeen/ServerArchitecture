@@ -65,5 +65,16 @@ public class ButtonClient:MonoBehaviour
             }
         }
     }
+    UnityNetClient unityNetClient;
+    void Start()
+    {
+        unityNetClient=new UnityNetClient();
+        input_field.onSubmit.AddListener(SendMsg);
+    }
+    [SerializeField]TMPro.TMP_InputField input_field;
+    void SendMsg(string msg)
+    {
+        UnityNetClient.SendMsg(msg);
+    }
 
 }

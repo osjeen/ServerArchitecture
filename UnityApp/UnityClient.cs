@@ -3,6 +3,7 @@ using System;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine.Events;
 
 namespace LLNetCode
 {
@@ -10,7 +11,7 @@ namespace LLNetCode
 public class UnityNetClient
 {
     private const string mainServerIP = "127.0.0.1";
-    private const int tcp_port = 5001;
+    private const int tcp_port = 5001,udp_send_port=5004,udp_receive_port=5005;
 
     /*TCP SOCKET*/
 
@@ -80,6 +81,60 @@ public class UnityNetClient
         }
 
         return ResponseProtocol.Deserialize<ClientMap>(response);
+    }
+    /*UDP SOCKET*/
+    public static async void SendUDPData(byte[] data)
+    {
+        using (UdpClient udpClient = new UdpClient())
+        {
+            try
+            {
+                await udpClient.SendAsync(data, data.Length, mainServerIP, udp_send_port);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"오류 발생: {e.Message}");
+            }
+        }
+    }
+
+    public static void SendMsg(string msg,string path="/")
+    {
+        SendMsg_PacketPata data = new SendMsg_PacketPata();
+        data.msg=msg;
+        data.path=path;
+        SendUDPData(QueryProtocol.Serialize(data));
+    }
+    void UDPReceiveLoop()
+    {
+        Debug.Log("Start UdpReceive");
+        Task.Run(async () =>
+        {
+        using (UdpClient udpListener = new UdpClient(udp_receive_port))
+        {
+            Debug.Log($"[UDP 수신 시작] 포트 {udp_receive_port}에서 대기 중...");
+            try
+            {
+                while (true)
+                {
+                    UdpReceiveResult result = await udpListener.ReceiveAsync();
+
+                    string receivedMessage = Encoding.UTF8.GetString(result.Buffer);
+                    if(result.RemoteEndPoint.Address.ToString()==mainServerIP)
+                    Debug.Log($"[수신] {result.RemoteEndPoint}: {receivedMessage}");
+                    else Debug.Log("Hack Access");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.Log($"[수신 에러] {ex.Message}");
+            }
+        }
+        });
+    }
+    public UnityNetClient()
+    {
+        UDPReceiveLoop();
     }
 }
 

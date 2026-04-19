@@ -27,6 +27,19 @@ public class QueryProtocol
             }
             return ms.ToArray();
             }
+        }else if(data is SendMsg_PacketPata data_msg)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+            using (BinaryWriter writer = new BinaryWriter(ms, Encoding.UTF8))
+            {
+                writer.Write(data_msg.QueryType);
+                writer.Write(data_msg.msg);
+                writer.Write("PATH:");
+                writer.Write(data_msg.path);
+            }
+            return ms.ToArray();
+            }
         }
 
         return null;
@@ -37,7 +50,8 @@ public enum PacketType : byte
 {
     None = 0,
     ClientAssign = 1,
-    DivisionClients = 2
+    DivisionClients = 2,
+    SendMsg=3
 }
 
 public class PacketData
@@ -55,4 +69,10 @@ public class DivisionClients_PacketData : PacketData
 {
     public override byte QueryType => 2;
     public string path;
+}
+
+public class SendMsg_PacketPata : PacketData
+{
+    public override byte QueryType => 3;
+    public string msg,path;
 }

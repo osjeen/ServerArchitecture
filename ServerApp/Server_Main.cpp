@@ -12,8 +12,12 @@
 
 
 #define MAIN_PORT 5001
+#define UDP_RECEIVE_PORT 5004
+#define UDP_SEND_PORT 5005
 
 using boost::asio::ip::tcp;
+
+using boost::asio::ip::udp;
 
 using json = nlohmann::json;
 
@@ -28,6 +32,10 @@ public:
         std::lock_guard<std::mutex> lock(mutex_);
         // {"clients": [...]} 형태로 출력됨
         return nlohmann::json(data_).dump();
+    }
+    ClientMap get_data(){
+        std::lock_guard<std::mutex> lock(mutex_);
+        return data_;
     }
 
 private:
@@ -47,6 +55,14 @@ class ServerApp {
     std::map<int, std::shared_ptr<Session>> clients;
     int next_client_id = 0;
     std::mutex clients_mutex;
+private:
+    static int ClientUUID(SharedClientManager* scm,std::string ip){
+        ClientMap cmap=scm->get_data();
+        for(const auto a:cmap.client_structures){
+            if(a.ip==ip)return a.uuid;
+        }
+        return 0;
+    }
 
 public:
     void session_handler(SharedClientManager* scm,tcp::socket socket) {
@@ -77,18 +93,22 @@ public:
                     std::cout << "[DATA] First Byte (ID): " << query_id<< std::endl;
                 }
                 if(query_id==1){
+
                     //extract path data
                     std::string path(data+ 1,length-1);
 
                     //gen uuid
+                    //있다면 받아옴
+        
+                    int final_uuid=ClientUUID(scm,new_session->socket_.remote_endpoint().address().to_string());
+                    if(final_uuid==0){
                     // 1. UUID 생성
                     boost::uuids::random_generator gen;
                     boost::uuids::uuid u = gen();
 
                     // 2. UUID를 int(또는 size_t)로 변환 (해시 이용)
                     size_t uuid_hash = boost::hash<boost::uuids::uuid>{}(u);
-                    int final_uuid = static_cast<int>(uuid_hash);
-
+                    final_uuid = static_cast<int>(uuid_hash);
                     //Assign Client
                     ClientStructure newClient;
                     newClient.path=path;
@@ -96,14 +116,16 @@ public:
                     newClient.ip=new_session->socket_.remote_endpoint().address().to_string();
                     scm->add_client(newClient);
 
+                    }
 
                     //Send Client ID
-                    std::cout<<"ID:"<<newClient.uuid<<std::endl;
+                    std::cout<<"ID:"<<final_uuid<<std::endl;
                     unsigned char bytes[4];
-                    std::memcpy(bytes, &newClient.uuid, sizeof(int));
+                    std::memcpy(bytes, &final_uuid, sizeof(int));
                     boost::asio::write(new_session->socket_, boost::asio::buffer(bytes, length));
                 }
                 if(query_id==2){
+                    //Get Client
                     //Extract path
 
                     //Get Clients in path
@@ -126,6 +148,12 @@ public:
                     } else {
                         std::cout << "성공적으로 " << host_len << " 바이트 전송함." << std::endl;
                     }
+                }else if(query_id==3){
+                    //Send Global Msg
+
+                    //Get Clients
+
+                    std::string msg(data+ 1,length-1);
                 }
                 else{
                     boost::asio::write(new_session->socket_, boost::asio::buffer(data, length));
@@ -141,13 +169,65 @@ public:
             clients.erase(my_id);
         }
     }
+    static void send_message(SharedClientManager* scm, udp::socket& socket, std::string message) {
+            auto client_map = scm->get_data();
+
+            for (const auto& client : client_map.client_structures) {
+            try {
+                udp::endpoint target(boost::asio::ip::make_address_v4(client.ip), UDP_SEND_PORT);
+                socket.send_to(boost::asio::buffer(message), target);
+            } catch (std::exception& e) {
+                std::cerr << "[Send Error] " << client.ip << " : " << e.what() << std::endl;
+            }
+        }
+    }
+
+    void udp_listener(SharedClientManager* scm) {
+
+    try {
+        boost::asio::io_context io_context;
+        // UDP 소켓 생성 및 포트 바인딩
+        boost::asio::ip::udp::socket socket(io_context, 
+            boost::asio::ip::udp::endpoint(boost::asio::ip::udp::v4(), UDP_RECEIVE_PORT));
+
+        std::cout << "[UDP] Listening on port " << UDP_RECEIVE_PORT<< "..." << std::endl;
+
+        for (;;) {
+            char data[2048];
+            boost::asio::ip::udp::endpoint remote_endpoint;
+            
+            // 데이터가 올 때까지 블로킹 (수신 대기)
+            size_t length = socket.receive_from(boost::asio::buffer(data), remote_endpoint);
+
+            // 수신 데이터 처리 로직
+            /*
+            쿼리가 3,ClientMap에 포함된 클라이언트
+            */
+            if(data[0]==3){
+                std::string msg(data+1, length-1);
+
+                std::cout << "[UDP 수신] " << remote_endpoint << " >> " << msg << std::endl;
+                std::thread udp_send_thread(&ServerApp::send_message,scm,std::ref(socket),msg);
+                udp_send_thread.detach();
+            }
+        }
+        } catch (std::exception& e) {
+        std::cerr << "[UDP 에러] " << e.what() << std::endl;
+        }
+    }
 };
 
 int main() {
     ServerApp serverApp;
     SharedClientManager scm;
+
     boost::asio::io_context io_context;
 
+    //UDP 스레드 분리
+    std::thread udp_thread(&ServerApp::udp_listener,&serverApp, &scm);
+    udp_thread.detach();
+
+    //메인루프:TCP
     try {
         // 포트 재사용 옵션 적용
         tcp::acceptor acceptor(io_context);
